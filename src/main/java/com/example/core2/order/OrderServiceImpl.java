@@ -3,7 +3,6 @@ package com.example.core2.order;
 import com.example.core2.discount.DiscountPolicy;
 import com.example.core2.member.Member;
 import com.example.core2.member.MemberRepository;
-import com.example.core2.member.MemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
