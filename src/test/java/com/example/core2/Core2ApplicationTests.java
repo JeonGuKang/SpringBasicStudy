@@ -8,3 +8,17 @@ class Core2ApplicationTests {
 
 
 }
+
+
+interface B  {
+    String boo ();
+}
+
+interface C {
+    String foo();
+}
+
+interface D extends B, C {
+
+     //What do I do? Which method should I call?
+}
