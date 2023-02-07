@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.2.1.RELEASE'
 }
 
 tasks.named('test') {
